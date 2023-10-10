@@ -19,7 +19,7 @@ const BackButton: React.FC<BackBtnProp> = ({ setProjectOpen }) => {
           width={120}
           height={120}
           alt="arrow"
-          className="rotate-180"
+          className="rotate-180 scale-y-75"
         />
       </div>
     </>

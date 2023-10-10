@@ -33,7 +33,7 @@ const ButtonTech: React.FC<BtnProp> = ({ text }) => {
     const color = colorObj[text];
     return (
       <button
-        className={`px-6 py-2 rounded-full uppercase text-xs font-monsterrat border-b-2 hover:brightness-[300%] `}
+        className={`px-4 md:px-6 py-2 rounded-full uppercase text-xs font-monsterrat border-b-2 hover:brightness-[300%] `}
         style={{ borderColor: color, color: color }}
       >
         {text}
@@ -42,7 +42,11 @@ const ButtonTech: React.FC<BtnProp> = ({ text }) => {
   }
 
   // Handle the case where 'text' doesn't match any color
-  return <button className={`px-6 py-2 border-2 border-white`}>{text}</button>;
+  return (
+    <button className={`px-4 md:px-6 py-2 border-2 border-white`}>
+      {text}
+    </button>
+  );
 };
 
 export default ButtonTech;

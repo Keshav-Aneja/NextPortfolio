@@ -4,6 +4,7 @@ import Filter2 from "../components/Filter2";
 import Navbar from "../sections/Navbar";
 import ProjectTable from "../sections/ProjectTable";
 import ProjectOverlay from "../sections/ProjectOverlay";
+import ProjectPopup from "../sections/ProjectPopup";
 import { useState } from "react";
 import Image from "next/image";
 export default function Project() {
@@ -31,13 +32,17 @@ export default function Project() {
             setOpenProjectId={setOpenProjectId}
           />
         </div>
-        <ProjectOverlay
-          projectOpen={projectOpen}
-          setProjectOpen={setProjectOpen}
-          openProjectId={openProjectId}
-        />
       </div>
-
+      {/* <ProjectOverlay
+        projectOpen={projectOpen}
+        setProjectOpen={setProjectOpen}
+        openProjectId={openProjectId}
+      /> */}
+      <ProjectPopup
+        projectOpen={projectOpen}
+        setProjectOpen={setProjectOpen}
+        openProjectId={openProjectId}
+      ></ProjectPopup>
       <Navbar toggleMenu={setMenuOpen} />
     </>
   );

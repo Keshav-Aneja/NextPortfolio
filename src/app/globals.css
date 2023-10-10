@@ -200,3 +200,7 @@ body::before {
 .bottom-row {
   transform-origin: 50% 100%;
 }
+.Header-wrapper {
+  min-height: 50vh;
+  height: fit-content;
+}

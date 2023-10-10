@@ -7,7 +7,7 @@ interface BannerProp {
 const ImageBanner: React.FC<BannerProp> = ({ projectOpen, title, img }) => {
   return (
     <>
-      <div className="img-container w-[100%] md:w-[90%] h-[20vh] lg:h-[40vh] overflow-hidden bg-cover bg-center relative">
+      <div className="img-container w-[100%] md:w-[90%] m-auto h-[20vh] lg:h-[45vh]  overflow-hidden bg-cover bg-center relative">
         <div
           className={`hidden md:flex outline-content heading-text w-full h-full  justify-center items-center md:text-[max(8vw,5rem)] absolute z-[400] font-coolvetica tracking-wider text-transparent ${
             projectOpen
@@ -37,8 +37,8 @@ const ImageBanner: React.FC<BannerProp> = ({ projectOpen, title, img }) => {
           className={`imgBanner absolute h-full w-full blur-[8px]`}
         />
         <div
-          className={`overlay absolute  w-[100%] h-[200%] top-[-100%] bg-black transition-all duration-1000 delay-1000 ease-linear ${
-            projectOpen ? "top-[200%]" : "top-[0]"
+          className={`overlay absolute  w-[100%] h-[200%] -top-[-100%] bg-black transition-all duration-1000 delay-[1000ms] ease-linear ${
+            projectOpen ? "-top-[200%]" : "top-[0]"
           }`}
         ></div>
       </div>
