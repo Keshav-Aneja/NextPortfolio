@@ -6,7 +6,7 @@ const BackButton: React.FC<BackBtnProp> = ({ setProjectOpen }) => {
   return (
     <>
       <div
-        className="text-white text-5xl flex flex-col justify-center items-center scale-90 hover:scale-100 transition-all duration-300 ease active:scale-75 cursor-pointer"
+        className="remove-def text-white text-5xl flex flex-col justify-center items-center scale-90 hover:scale-100 transition-all duration-300 ease active:scale-75 cursor-pointer"
         onClick={() => {
           setProjectOpen(false);
         }}

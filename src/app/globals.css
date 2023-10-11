@@ -201,3 +201,6 @@ body::before {
   min-height: 50vh;
   height: fit-content;
 }
+.remove-def {
+  -webkit-tap-highlight-color: transparent;
+}

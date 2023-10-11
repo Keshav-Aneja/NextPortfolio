@@ -5,7 +5,7 @@ interface ButtonProp {
 }
 const ButtonOutline: React.FC<ButtonProp> = ({ children, arrowdir }) => {
   return (
-    <div className="group bg-transparent border-b-2 rounded-full px-6 py-2 w-fit border-primary hover:text-tertiary font-montserrat cursor-pointer transition-all duration-200 ease-in flex justify-between items-center text-base hover:scale-[105%]">
+    <div className="remove-def group bg-transparent border-b-2 rounded-full px-6 py-2 w-fit border-primary hover:text-tertiary font-montserrat cursor-pointer transition-all duration-200 ease-in flex justify-between items-center text-base hover:scale-[105%]">
       <Image
         src="/images/arrow-w.png"
         alt="arrow"
