@@ -14,7 +14,7 @@ const ProjectTable: React.FC<ProjectProps> = ({
 }) => {
   const [selected, setSelected] = useState(0);
   return (
-    <div className="w-full h-[100%] md:h-[80%] border-2 border-tertiary rounded-3xl overflow-y-hidden ">
+    <div className="w-full h-[100%] md:h-[80%] border-2 border-tertiary rounded-3xl overflow-y-hidden">
       <div className="ButtonMenu w-full flex gap-2 p-4 flex-wrap justify-center md:justify-start">
         {TechMenu.map((skill, i) => (
           <ButtonPrime
@@ -29,7 +29,7 @@ const ProjectTable: React.FC<ProjectProps> = ({
       </div>
 
       <div className="line bg-tertiary w-[100%] h-[2px] md:mb-6"></div>
-      <div className="Project-Display w-full h-[80%] overflow-y-scroll overflow-x-hidden p-0 md:p-4 flex justify-center md:justify-between flex-wrap items-start">
+      <div className="Project-Display w-full h-[80%] overflow-y-scroll overflow-x-hidden p-0 md:p-4 flex justify-center md:justify-between flex-wrap items-start z-[10]">
         {ProjectData.map((data, i) => (
           <ProjectCard
             id={data.id}

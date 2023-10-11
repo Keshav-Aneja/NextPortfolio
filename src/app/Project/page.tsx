@@ -14,6 +14,10 @@ export default function Project() {
   const [openProjectId, setOpenProjectId] = useState(-1);
   return (
     <>
+      {" "}
+      <div className="container z-[-10]">
+        <BackgroundProps />
+      </div>
       <Filter />
       <Filter2 />
       <div className="w-[100vw] h-[100vh] overflow-hidden flex justify-center items-center">
@@ -45,7 +49,6 @@ export default function Project() {
         openProjectId={openProjectId}
       ></ProjectPopup>
       <Navbar toggleMenu={setMenuOpen} />
-      <BackgroundProps />
     </>
   );
 }
