@@ -14,9 +14,9 @@ export default function Project() {
   const [openProjectId, setOpenProjectId] = useState(-1);
   return (
     <>
+      <Filter />
+      <Filter2 />
       <div className="w-[100vw] h-[100vh] overflow-hidden flex justify-center items-center">
-        <Filter />
-        <Filter2 />
         <div
           className={`project-content  transition-all duration-[750ms] ease-inc  ${
             menuOpen
