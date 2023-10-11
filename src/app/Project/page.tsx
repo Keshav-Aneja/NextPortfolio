@@ -5,6 +5,7 @@ import Navbar from "../sections/Navbar";
 import ProjectTable from "../sections/ProjectTable";
 import ProjectOverlay from "../sections/ProjectOverlay";
 import ProjectPopup from "../sections/ProjectPopup";
+import BackgroundProps from "../components/BackgroundProps";
 import { useState } from "react";
 import Image from "next/image";
 export default function Project() {
@@ -44,6 +45,7 @@ export default function Project() {
         openProjectId={openProjectId}
       ></ProjectPopup>
       <Navbar toggleMenu={setMenuOpen} />
+      <BackgroundProps />
     </>
   );
 }

@@ -34,7 +34,7 @@ const ImageBanner: React.FC<BannerProp> = ({ projectOpen, title, img }) => {
           //   ${
           //     projectOpen ? "translate-y-[0px]" : "translate-y-[300px]"
           //   }
-          className={`imgBanner absolute h-full w-full blur-[8px]`}
+          className={`imgBanner absolute h-full w-full blur-[4px] md:blur-[8px]`}
         />
         <div
           className={`overlay absolute  w-[100%] h-[200%] -top-[-100%] bg-black transition-all duration-1000 delay-[1000ms] ease-linear ${
