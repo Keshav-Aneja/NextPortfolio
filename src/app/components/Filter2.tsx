@@ -18,7 +18,7 @@ const Filter2: React.FC<FilterProp> = ({ opacity }) => {
           height="100vh"
           filterUnits="objectBoundingBox"
           primitiveUnits="userSpaceOnUse"
-          color-interpolation-filters="linearRGB"
+          colorInterpolationFilters="linearRGB"
         >
           <feTurbulence
             type="fractalNoise"
@@ -36,7 +36,7 @@ const Filter2: React.FC<FilterProp> = ({ opacity }) => {
             surfaceScale="15"
             specularConstant="1"
             specularExponent="20"
-            lighting-color="#c98d76"
+            lightingColor="#c98d76"
             x="0%"
             y="0%"
             width="100%"

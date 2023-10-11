@@ -1,14 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
 module.exports = {
-  nextConfig,
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "images.unsplash.com",
-        port: "",
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.(ttf|otf|eot|woff|woff2)$/,
+      loader: "file-loader",
+      options: {
+        name: "[name]-[hash].[ext]",
+        outputPath: "fonts",
       },
-    ],
+    });
+    return config;
   },
 };

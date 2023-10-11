@@ -72,7 +72,7 @@ body::before {
 }
 @font-face {
   font-family: "coolvetica";
-  src: url("./coolvetica.otf");
+  src: url("/fonts/boldfont.otf") format("opentype");
 }
 
 .main-content {

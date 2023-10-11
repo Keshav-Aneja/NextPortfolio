@@ -82,7 +82,7 @@ const Menu: React.FC<menuDetail> = ({ isOpen }) => {
           <div className="card-inner w-full h-full">
             <p className="text-xl font-bold">Home</p>
             <Image
-              src="https://images.unsplash.com/photo-1696587524422-b7ca5ce5c7e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+              src="/images/fork.jpg"
               alt=""
               width={1000}
               height={1000}
@@ -94,7 +94,7 @@ const Menu: React.FC<menuDetail> = ({ isOpen }) => {
           <div className="card-inner w-full h-full">
             <p className="text-xl font-bold">About Me</p>
             <Image
-              src="https://images.unsplash.com/photo-1696587524422-b7ca5ce5c7e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+              src="/images/fork.jpg"
               alt=""
               width={1000}
               height={1000}
@@ -107,7 +107,7 @@ const Menu: React.FC<menuDetail> = ({ isOpen }) => {
             <Link href="/Project">
               <p className="text-xl font-bold">Projects</p>
               <Image
-                src="https://images.unsplash.com/photo-1696587524422-b7ca5ce5c7e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+                src="/images/fork.jpg"
                 alt=""
                 width={1000}
                 height={1000}
@@ -120,7 +120,7 @@ const Menu: React.FC<menuDetail> = ({ isOpen }) => {
           <div className="card-inner w-full h-full">
             <p className="text-xl font-bold">Blogs</p>
             <Image
-              src="https://images.unsplash.com/photo-1696587524422-b7ca5ce5c7e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+              src="/images/fork.jpg"
               alt=""
               width={1000}
               height={1000}
