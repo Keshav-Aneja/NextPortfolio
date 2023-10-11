@@ -41,7 +41,7 @@ export default function Home() {
             <div className="project">
               <Link
                 href="../About"
-                className="flex flex-col justify-center items-center hover:scale-110 transition-all duration-300 ease-linear"
+                className="remove-def flex flex-col justify-center items-center hover:scale-110 transition-all duration-300 ease-linear"
               >
                 <Image
                   src="/images/arrow.png"
@@ -57,7 +57,7 @@ export default function Home() {
             <div className="About ">
               <Link
                 href="#"
-                className="flex flex-col justify-center items-center hover:scale-110 transition-all duration-300 ease-linear"
+                className="remove-def flex flex-col justify-center items-center hover:scale-110 transition-all duration-300 ease-linear"
                 onClick={() => setSocialOpen(!socialOpen)}
               >
                 <Image

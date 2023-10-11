@@ -30,7 +30,7 @@ const ProjectCard: React.FC<CardProp> = ({
         </div>
       </div>
       <div
-        className="view-btn border-2 border-tertiary rounded-xl text-center py-4 hover:bg-secondary  hover:border-secondary uppercase cursor-pointer group-hover:border-primary  hover:text-white transition-all duration-300 ease-in-out"
+        className="remove-def view-btn border-2 border-tertiary rounded-xl text-center py-4 hover:bg-secondary  hover:border-secondary uppercase cursor-pointer group-hover:border-primary  hover:text-white transition-all duration-300 ease-in-out"
         onClick={() => {
           setProjectOpen(true);
           setOpenProjectId(id);
