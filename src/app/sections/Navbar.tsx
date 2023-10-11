@@ -14,12 +14,12 @@ const Navbar: React.FC<menuProp> = ({ toggleMenu }) => {
     <>
       <Menu isOpen={isOpen} />
       <div
-        className={`menu-btn-outer scale-75 md:scale-100 fixed p-2 w-20 h-20 rounded-full border-4  left-[50%] translate-x-[-50%] bottom-12 md:bottom-16 flex items-center justify-center ${
+        className={`remove-def menu-btn-outer scale-75 md:scale-100 fixed p-2 w-20 h-20 rounded-full border-4  left-[50%] translate-x-[-50%] bottom-12 md:bottom-16 flex items-center justify-center ${
           isOpen ? "border-[#8fa8ae]" : "border-secondary"
         }`}
       >
         <div
-          className={`group w-full h-full rounded-full  flex justify-center items-center font-bold ${
+          className={`remove-def group w-full h-full rounded-full  flex justify-center items-center font-bold ${
             isOpen ? "bg-[#65858b]" : "bg-secondary"
           } transition-all duration-500 active:duration-200 ease-inc cursor-pointer hover:scale-[130%] active:scale-[85%] drop-shadow-[0px_0px_20px_rgba(0,0,0,0.4)]`}
           onClick={() => {
