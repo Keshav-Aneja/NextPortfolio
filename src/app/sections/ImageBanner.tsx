@@ -24,7 +24,7 @@ const ImageBanner: React.FC<BannerProp> = ({ projectOpen, title, img }) => {
           } transition-all duration-[600ms] delay-500`}
           style={{ textShadow: "0px 0px 15px rgba(0,0,0,0.4)" }}
         >
-          SpaceGame
+          {title}
         </div>
         <Image
           src={`/images/${img}`}
