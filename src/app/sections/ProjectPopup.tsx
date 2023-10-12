@@ -82,7 +82,7 @@ const ProjectPopup: React.FC<ProjectProps> = ({
           </div>
         </div>
         {openData?.imgBanners.map((img, i) => (
-          <>
+          <div key={i}>
             <div className="white w-[100%]  mb-6 flex justify-center items-center">
               <div className="text text-black font-coolvetica text-4xl">
                 <Image
@@ -94,7 +94,7 @@ const ProjectPopup: React.FC<ProjectProps> = ({
                 ></Image>
               </div>
             </div>
-          </>
+          </div>
         ))}
       </div>
     </div>
