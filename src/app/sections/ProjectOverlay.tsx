@@ -64,13 +64,7 @@ const ProjectOverlay: React.FC<ProjectProps> = ({
                 Description
               </h2>
               <p className="text-tertiary font-montserrat text-sm md:text-base text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-                illum praesentium debitis quibusdam, aspernatur numquam eaque.
-                Provident ut quisquam ipsa ipsam nemo tempora consequuntur fugit
-                ipsum perferendis architecto inventore sequi necessitatibus,
-                minus vitae magni adipisci sunt ullam possimus, quibusdam quidem
-                repellat corrupti sint est modi. Deleniti corporis ipsam
-                sapiente accusamus?
+                {openData?.description}
               </p>
             </div>
             <div className="tech-stack w-full p-4 md:w-[30%]">
@@ -78,6 +72,9 @@ const ProjectOverlay: React.FC<ProjectProps> = ({
                 Technologies Used
               </h2>
               <div className="ButtonMenu w-full flex flex-wrap gap-4">
+                {openData?.tech.map((tech, i) => (
+                  <ButtonTech text={tech} key={i} />
+                ))}
                 <ButtonTech text="html" />
                 <ButtonTech text="next.js" />
                 <ButtonTech text="javascript" />

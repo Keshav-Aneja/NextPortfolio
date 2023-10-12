@@ -2,46 +2,154 @@
   {
     "id": 1,
     "title": "ForkThis",
-    "bannerImg": "fork.jpg"
+    "bannerImg": "fork.jpg",
+    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
+    "imgBanners": [
+      "a.jpg",
+      "b.jpg",
+      "c.jpg",
+      "d.jpg",
+      "e.jpg",
+      "f.jpg",
+      "g.jpg",
+      "h.jpg"
+    ],
+    "tech": ["html", "css"]
   },
   {
     "id": 2,
     "title": "Unnati",
-    "bannerImg": "unnati.png"
+    "bannerImg": "unnati.png",
+    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
+    "imgBanners": [
+      "a.jpg",
+      "b.jpg",
+      "c.jpg",
+      "d.jpg",
+      "e.jpg",
+      "f.jpg",
+      "g.jpg",
+      "h.jpg"
+    ],
+    "tech": ["html", "css"]
   },
   {
     "id": 3,
     "title": "FlipSketch",
-    "bannerImg": "flipsketch.jpg"
+    "bannerImg": "flipsketch.jpg",
+    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
+    "imgBanners": [
+      "a.jpg",
+      "b.jpg",
+      "c.jpg",
+      "d.jpg",
+      "e.jpg",
+      "f.jpg",
+      "g.jpg",
+      "h.jpg"
+    ],
+    "tech": ["html", "css"]
   },
   {
     "id": 4,
     "title": "Corest",
-    "bannerImg": "corest.jpg"
+    "bannerImg": "corest.jpg",
+    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
+    "imgBanners": [
+      "a.jpg",
+      "b.jpg",
+      "c.jpg",
+      "d.jpg",
+      "e.jpg",
+      "f.jpg",
+      "g.jpg",
+      "h.jpg"
+    ],
+    "tech": ["html", "css"]
   },
   {
     "id": 5,
     "title": "Unigames",
-    "bannerImg": "unigames.jpg"
+    "bannerImg": "unigames.jpg",
+    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
+    "imgBanners": [
+      "a.jpg",
+      "b.jpg",
+      "c.jpg",
+      "d.jpg",
+      "e.jpg",
+      "f.jpg",
+      "g.jpg",
+      "h.jpg"
+    ],
+    "tech": ["html", "css"]
   },
   {
     "id": 6,
     "title": "TypeNinja",
-    "bannerImg": "typeninja.jpg"
+    "bannerImg": "typeninja.jpg",
+    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
+    "imgBanners": [
+      "a.jpg",
+      "b.jpg",
+      "c.jpg",
+      "d.jpg",
+      "e.jpg",
+      "f.jpg",
+      "g.jpg",
+      "h.jpg"
+    ],
+    "tech": ["html", "css"]
   },
   {
     "id": 7,
     "title": "TCP Chat",
-    "bannerImg": "chat.png"
+    "bannerImg": "chat.png",
+    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
+    "imgBanners": [
+      "a.jpg",
+      "b.jpg",
+      "c.jpg",
+      "d.jpg",
+      "e.jpg",
+      "f.jpg",
+      "g.jpg",
+      "h.jpg"
+    ],
+    "tech": ["html", "css"]
   },
   {
     "id": 8,
     "title": "FileRenamer",
-    "bannerImg": "filenamer.jpg"
+    "bannerImg": "filenamer.jpg",
+    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
+    "imgBanners": [
+      "a.jpg",
+      "b.jpg",
+      "c.jpg",
+      "d.jpg",
+      "e.jpg",
+      "f.jpg",
+      "g.jpg",
+      "h.jpg"
+    ],
+    "tech": ["html", "css"]
   },
   {
     "id": 9,
     "title": "SpaceGame",
-    "bannerImg": "spacegame.jpg"
+    "bannerImg": "spacegame.jpg",
+    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
+    "imgBanners": [
+      "a.jpg",
+      "b.jpg",
+      "c.jpg",
+      "d.jpg",
+      "e.jpg",
+      "f.jpg",
+      "g.jpg",
+      "h.jpg"
+    ],
+    "tech": ["html", "css"]
   }
 ]

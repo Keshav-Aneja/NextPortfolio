@@ -50,13 +50,7 @@ const ProjectPopup: React.FC<ProjectProps> = ({
                 Description
               </h2>
               <p className="text-tertiary font-montserrat text-sm md:text-base text-justify w-[100%] lg:w-[80%]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-                illum praesentium debitis quibusdam, aspernatur numquam eaque.
-                Provident ut quisquam ipsa ipsam nemo tempora consequuntur fugit
-                ipsum perferendis architecto inventore sequi necessitatibus,
-                minus vitae magni adipisci sunt ullam possimus, quibusdam quidem
-                repellat corrupti sint est modi. Deleniti corporis ipsam
-                sapiente accusamus?
+                {openData?.description}
               </p>
             </div>
             <div className="techstack w-[100%] lg:w-[25%]">
@@ -64,11 +58,9 @@ const ProjectPopup: React.FC<ProjectProps> = ({
                 Technologies Used
               </h2>
               <div className="ButtonMenu w-full flex flex-wrap gap-4">
-                <ButtonTech text="html" />
-                <ButtonTech text="next.js" />
-                <ButtonTech text="javascript" />
-                <ButtonTech text="react" />
-                <ButtonTech text="tailwind css" />
+                {openData?.tech.map((tech, i) => (
+                  <ButtonTech key={i} text={tech} />
+                ))}
               </div>
             </div>
           </div>
@@ -89,26 +81,21 @@ const ProjectPopup: React.FC<ProjectProps> = ({
             />
           </div>
         </div>
-        <div className="white w-[100%] h-[200px] bg-primary mb-6 flex justify-center items-center">
-          <div className="text text-black font-coolvetica text-4xl">
-            PROJECT DISPLAY
-          </div>
-        </div>
-        <div className="white w-[100%] h-[200px] bg-primary mb-6 flex justify-center items-center">
-          <div className="text text-black font-coolvetica text-4xl">
-            PROJECT DISPLAY
-          </div>
-        </div>
-        <div className="white w-[100%] h-[200px] bg-primary mb-6 flex justify-center items-center">
-          <div className="text text-black font-coolvetica text-4xl">
-            PROJECT DISPLAY
-          </div>
-        </div>
-        <div className="white w-[100%] h-[200px] bg-primary mb-6 flex justify-center items-center">
-          <div className="text text-black font-coolvetica text-4xl">
-            PROJECT DISPLAY
-          </div>
-        </div>
+        {openData?.imgBanners.map((img, i) => (
+          <>
+            <div className="white w-[100%]  mb-6 flex justify-center items-center">
+              <div className="text text-black font-coolvetica text-4xl">
+                <Image
+                  src={`/images/unigames/${img}`}
+                  height={1080}
+                  width={1920}
+                  className="w-full h-full"
+                  alt="projectImg"
+                ></Image>
+              </div>
+            </div>
+          </>
+        ))}
       </div>
     </div>
   );
