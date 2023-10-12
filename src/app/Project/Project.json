@@ -9,12 +9,12 @@
       "b.jpg",
       "c.jpg",
       "d.jpg",
-      "e.jpg",
-      "f.jpg",
-      "g.jpg",
-      "h.jpg"
+      "e.png",
+      "f.png",
+      "g.png",
+      "h.png"
     ],
-    "tech": ["html", "css"]
+    "tech": ["next.js", "react", "tailwind css", "api"]
   },
   {
     "id": 2,
@@ -27,28 +27,18 @@
       "c.jpg",
       "d.jpg",
       "e.jpg",
-      "f.jpg",
-      "g.jpg",
-      "h.jpg"
+      "f.png",
+      "g.png"
     ],
-    "tech": ["html", "css"]
+    "tech": ["next.js", "react", "tailwind css", "css"]
   },
   {
     "id": 3,
     "title": "FlipSketch",
     "bannerImg": "flipsketch.jpg",
     "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
-    "imgBanners": [
-      "a.jpg",
-      "b.jpg",
-      "c.jpg",
-      "d.jpg",
-      "e.jpg",
-      "f.jpg",
-      "g.jpg",
-      "h.jpg"
-    ],
-    "tech": ["html", "css"]
+    "imgBanners": ["a.jpg", "b.jpg", "c.jpg", "d.jpg", "e.png", "f.png"],
+    "tech": ["html", "css", "javascript"]
   },
   {
     "id": 4,
@@ -65,7 +55,7 @@
       "g.jpg",
       "h.jpg"
     ],
-    "tech": ["html", "css"]
+    "tech": ["html", "css", "javascript"]
   },
   {
     "id": 5,
@@ -77,10 +67,10 @@
       "b.jpg",
       "c.jpg",
       "d.jpg",
-      "e.jpg",
-      "f.jpg",
-      "g.jpg",
-      "h.jpg"
+      "e.png",
+      "g.png",
+      "h.png",
+      "i.png"
     ],
     "tech": ["html", "css"]
   },
@@ -88,18 +78,9 @@
     "id": 6,
     "title": "TypeNinja",
     "bannerImg": "typeninja.jpg",
-    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
-    "imgBanners": [
-      "a.jpg",
-      "b.jpg",
-      "c.jpg",
-      "d.jpg",
-      "e.jpg",
-      "f.jpg",
-      "g.jpg",
-      "h.jpg"
-    ],
-    "tech": ["html", "css"]
+    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS. UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments .As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work.",
+    "imgBanners": ["a.jpg", "b.jpg", "c.jpg", "d.jpg", "e.jpg", "f.png"],
+    "tech": ["html", "css", "javascript"]
   },
   {
     "id": 7,
@@ -116,7 +97,7 @@
       "g.jpg",
       "h.jpg"
     ],
-    "tech": ["html", "css"]
+    "tech": ["python", "sockets", "networking"]
   },
   {
     "id": 8,
@@ -133,7 +114,7 @@
       "g.jpg",
       "h.jpg"
     ],
-    "tech": ["html", "css"]
+    "tech": ["python"]
   },
   {
     "id": 9,
@@ -150,6 +131,6 @@
       "g.jpg",
       "h.jpg"
     ],
-    "tech": ["html", "css"]
+    "tech": ["html", "css", "javascript"]
   }
 ]
