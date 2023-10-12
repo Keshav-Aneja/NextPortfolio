@@ -86,7 +86,7 @@ const ProjectPopup: React.FC<ProjectProps> = ({
             <div className="white w-[100%]  mb-6 flex justify-center items-center">
               <div className="text text-black font-coolvetica text-4xl">
                 <Image
-                  src={`/images/${openData.title}/${img}`}
+                  src={`/images/${openData.title.toLocaleLowerCase()}/${img}`}
                   height={1080}
                   width={1920}
                   className="w-full h-full"
