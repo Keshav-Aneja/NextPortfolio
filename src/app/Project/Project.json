@@ -3,7 +3,7 @@
     "id": 1,
     "title": "ForkThis",
     "bannerImg": "fork.jpg",
-    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
+    "description": "As the Frontend Developer behind the ForkThis Website for VIT's Gravitas event, I harnessed the power of NEXT.JS and Tailwind CSS to create a transformative platform. Over three eventful days, 100+ students utilized this website to monitor their open-source contributions, track event rankings through a leaderboard, and access a wealth of resources. My work enabled collaboration, fostered innovation, and left a significant mark on the event's success. Explore this project to witness my passion for web development and community empowerment.",
     "imgBanners": [
       "a.jpg",
       "b.jpg",

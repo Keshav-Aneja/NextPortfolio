@@ -14,7 +14,6 @@ export default function Project() {
   const [openProjectId, setOpenProjectId] = useState(-1);
   return (
     <>
-      {" "}
       <div className="container z-[-10]">
         <BackgroundProps />
       </div>

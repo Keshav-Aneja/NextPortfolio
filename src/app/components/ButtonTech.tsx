@@ -11,6 +11,7 @@ const colors: Record<string, string> = {
   javascript: "#F7DF1E", // Yellow
   react: "#61DAFB", // Light blue
   "next.js": "#ffffff", // Black
+  api: "#cd76fa",
 };
 const ButtonTech: React.FC<BtnProp> = ({ text }) => {
   // Use a function in find to compare the 'text' property of each object
