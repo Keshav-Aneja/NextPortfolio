@@ -59,7 +59,7 @@ const ProjectOverlay: React.FC<ProjectProps> = ({
                 img={openData?.bannerImg}
               />
             </div>
-            <div className="description w-full p-4 md:w-[50%]">
+            <div className="description w-[90%] p-4 md:w-[50%]">
               <h2 className="text-primary text-lg md:text-2xl font-montserrat">
                 Description
               </h2>

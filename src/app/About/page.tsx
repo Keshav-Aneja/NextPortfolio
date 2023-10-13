@@ -14,7 +14,7 @@ export default function About() {
           menuOpen
             ? "translate-y-[-50%] scale-[95%]  blur-sm pointer-events-none"
             : "-translate-y-16 md:translate-y-0 scale-100 blur-0 pointer-events-auto"
-        } transition-all duration-[750ms] ease-inc flex justify-center items-center`}
+        } transition-all duration-[750ms] ease-inc flex flex-col justify-center items-center`}
       >
         <Filter />
         <Filter2 />
@@ -24,20 +24,25 @@ export default function About() {
               About Me
             </div>
             <div className="line bg-primary w-[80%] h-[2px] mb-6"></div>
-            <div className="description w-[80%] font-montserrat tracking-wider leading-6 md:leading-8 text-justify mb-16 md:mb-8  md:text-base text-sm">
+            <div className="description w-[90%] md:w-[80%] font-montserrat tracking-wider leading-5  md:leading-8 text-justify mb-16 md:mb-8  md:text-base text-xs">
               <div
                 className="dp-img-container visible md:hidden w-[35%] md:w-[30%] h-[40%] md:h-[70%] rounded-xl md:rounded-bl-[150px] rounded-br-[50px] md:rounded-br-0 mr-4 md:mr-0 overflow-hidden relative float-left"
                 style={{ backgroundImage: "url(/images/Profile.png)" }}
               ></div>
-              A first-year Computer Science student. Currently, I am diving deep
-              into frontend development and exploring the exciting world of web
-              design. My ultimate goal is to become a versatile fullstack
-              developer. I am driven by my passion for embracing and mastering
-              various new technologies. Coding and graphic designing are my
-              creative outlets, where I find joy in transforming ideas into
-              visually appealing and functional solutions.
+              Hello, I&&apos;m Keshav Aneja, a second-year computer science
+              student at Vellore Institute of Technology, deeply immersed in the
+              world of full-stack web development. My journey began with
+              exploring the captivating realm of frontend development, where I
+              delved into technologies like React and Next.js, crafting
+              innovative projects along the way. My current focus is on
+              mastering the backend, with the goal of creating full-stack
+              applications that cater to a wide audience. Coding and graphic
+              design serve as my creative outlets, allowing me to transform
+              ideas into visually appealing and functional solutions. The
+              satisfaction of bringing creativity to life through lines of code
+              and eye-catching designs is truly fulfilling for me.
             </div>
-            <ButtonOutline>Cirriculum Vitae</ButtonOutline>
+            {/* <ButtonOutline>Cirriculum Vitae</ButtonOutline> */}
           </div>
           <div
             className="dp-img-container hidden md:block w-[30%] h-[70%] rounded-xl rounded-bl-[150px] overflow-hidden relative"

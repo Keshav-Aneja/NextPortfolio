@@ -15,12 +15,12 @@ const Navbar: React.FC<menuProp> = ({ toggleMenu }) => {
       <Menu isOpen={isOpen} />
       <div
         className={`remove-def menu-btn-outer scale-75 md:scale-100 fixed p-2 w-20 h-20 rounded-full border-4  left-[50%] translate-x-[-50%] bottom-12 md:bottom-16 flex items-center justify-center ${
-          isOpen ? "border-[#8fa8ae]" : "border-secondary"
+          isOpen ? "border-secondary" : "border-secondary"
         }`}
       >
         <div
           className={`remove-def group w-full h-full rounded-full  flex justify-center items-center font-bold ${
-            isOpen ? "bg-[#65858b]" : "bg-secondary"
+            isOpen ? "bg-secondary" : "bg-secondary"
           } transition-all duration-500 active:duration-200 ease-inc cursor-pointer hover:scale-[130%] active:scale-[85%] drop-shadow-[0px_0px_20px_rgba(0,0,0,0.4)]`}
           onClick={() => {
             setIsOpen(!isOpen);
@@ -48,7 +48,7 @@ const Navbar: React.FC<menuProp> = ({ toggleMenu }) => {
               alt="close"
               width={100}
               height={100}
-              className="w-[40%]"
+              className="w-[40%] "
             />
           ) : (
             <Image
@@ -56,7 +56,7 @@ const Navbar: React.FC<menuProp> = ({ toggleMenu }) => {
               alt="Menu"
               width={100}
               height={100}
-              className="w-[40%] md:opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-inc"
+              className="w-[40%] md:opacity-0  group-hover:opacity-100 transition-opacity duration-300 ease-inc"
             />
           )}
         </div>
@@ -72,62 +72,36 @@ const Menu: React.FC<menuDetail> = ({ isOpen }) => {
   return (
     <>
       <div
-        className={`menu-container w-[100vw] h-[60vh] p-4 px-12 flex flex-wrap gap-[2%] fixed left-0  transition-all duration-[750ms] ease-inc ${
+        className={`menu-container w-[100vw] h-[45vh] md:h-[60vh] md:p-4 px-4 md:px-12 flex flex-wrap gap-[3%] md:gap-[5%] fixed left-0  transition-all justify-center duration-[750ms] ease-inc ${
           isOpen
             ? "bottom-0 scale-100 blur-0"
             : "bottom-[-100%] scale-75 blur-lg"
         }`}
       >
-        <div className="card w-[23%] aspect-[500/333]  overflow-hidden">
-          <div className="card-inner w-full h-full">
-            <p className="text-xl font-bold">Home</p>
-            <Image
-              src="/images/fork.jpg"
-              alt=""
-              width={1000}
-              height={1000}
-              className="w-full h-[60%] object-cover rounded-xl"
-            ></Image>
+        <Link
+          href="/Landing"
+          className="card w-[30%] md:w-[23%] h-32 md:h-60  overflow-hidden"
+        >
+          <div className="group card-inner w-full h-full border-4 border-secondary  rounded-tl-[50px] md:rounded-tl-[100px] rounded-br-[50px] md:rounded-br-[100px] flex justify-center items-center text-white text-base md:text-3xl font-monsterrat font-semibold tracking-widest hover:bg-secondary transition-all duration-300 hover:bg-opacity-50">
+            Home
           </div>
-        </div>
-        <div className="card w-[23%] aspect-[500/333]  overflow-hidden">
-          <div className="card-inner w-full h-full">
-            <p className="text-xl font-bold">About Me</p>
-            <Image
-              src="/images/fork.jpg"
-              alt=""
-              width={1000}
-              height={1000}
-              className="w-full h-[60%] object-cover rounded-xl"
-            ></Image>
+        </Link>
+        <Link
+          href="/Project"
+          className="card w-[34%] md:w-[23%] h-32 md:h-60  overflow-hidden"
+        >
+          <div className="card-inner w-full h-full border-4 border-secondary rounded-[50px] md:rounded-[100px]  flex justify-center items-center text-white text-base md:text-3xl font-monsterrat font-semibold tracking-widest hover:bg-secondary transition-all duration-300  hover:bg-opacity-50">
+            Projects
           </div>
-        </div>
-        <div className="card w-[23%] aspect-[500/333]  overflow-hidden">
-          <div className="card-inner w-full h-full">
-            <Link href="/Project">
-              <p className="text-xl font-bold">Projects</p>
-              <Image
-                src="/images/fork.jpg"
-                alt=""
-                width={1000}
-                height={1000}
-                className="w-full h-[60%] object-cover rounded-xl"
-              ></Image>
-            </Link>
+        </Link>
+        <Link
+          href="/About"
+          className="card w-[30%] md:w-[23%] h-32 md:h-60  overflow-hidden"
+        >
+          <div className="card-inner w-full h-full border-4 border-secondary rounded-tr-[50px] md:rounded-tr-[100px] rounded-bl-[50px] md:rounded-bl-[100px] flex justify-center items-center text-white text-base md:text-3xl font-monsterrat font-semibold tracking-widest hover:bg-secondary transition-all duration-300  hover:bg-opacity-50">
+            About
           </div>
-        </div>
-        <div className="card w-[23%] aspect-[500/333]  overflow-hidden">
-          <div className="card-inner w-full h-full">
-            <p className="text-xl font-bold">Blogs</p>
-            <Image
-              src="/images/fork.jpg"
-              alt=""
-              width={1000}
-              height={1000}
-              className="w-full h-[60%] object-cover rounded-xl"
-            ></Image>
-          </div>
-        </div>
+        </Link>
       </div>
     </>
   );
