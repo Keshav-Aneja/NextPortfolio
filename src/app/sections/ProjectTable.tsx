@@ -13,6 +13,25 @@ const ProjectTable: React.FC<ProjectProps> = ({
   setOpenProjectId,
 }) => {
   const [selected, setSelected] = useState(0);
+  const techSelected = TechMenu[selected]["Skill"];
+  let filter = "";
+  if (selected === 0) {
+    filter = "";
+  } else if (selected === 1) {
+    filter = "next.js";
+  } else if (selected === 2) {
+    filter = "python";
+  } else if (selected === 3) {
+    filter = "html";
+  } else if (selected === 4) {
+    filter = "javascript";
+  } else if (selected === 5) {
+    filter = "remotion";
+  }
+  const filteredProjects =
+    filter === ""
+      ? ProjectData
+      : ProjectData.filter((project) => project.tech.includes(filter));
   return (
     <div className="w-full h-[100%] md:h-[80%] border-2 border-tertiary rounded-3xl overflow-y-hidden">
       <div className="ButtonMenu w-full flex gap-2 p-4 flex-wrap justify-center md:justify-start">
@@ -30,7 +49,7 @@ const ProjectTable: React.FC<ProjectProps> = ({
 
       <div className="line bg-tertiary w-[100%] h-[2px] md:mb-6"></div>
       <div className="Project-Display w-full h-[80%] overflow-y-scroll overflow-x-hidden p-0 md:p-4 flex justify-center md:justify-between flex-wrap items-start z-[10]">
-        {ProjectData.map((data, i) => (
+        {filteredProjects.map((data, i) => (
           <ProjectCard
             id={data.id}
             key={data.id}

@@ -14,13 +14,15 @@
       "g.png",
       "h.png"
     ],
-    "tech": ["next.js", "react", "tailwind css", "api"]
+    "tech": ["next.js", "react", "tailwind css", "api"],
+    "gitlink": "",
+    "demolink": "https://https://forkthis.csivit.com/"
   },
   {
     "id": 2,
     "title": "Unnati",
     "bannerImg": "unnati.png",
-    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
+    "description": "Unnati is a ground-breaking initiative that aims to transform the lives of women by providing them with a platform to showcase and sell their skills and services. This website made for women sellers, Allows the seller to list their products easily and customers can view the products. With the dashboard section the sellers can track their orders. An interactive map, allows the users to quickly see the local sellers nearby and see any pictures or videos associated with that place.",
     "imgBanners": [
       "a.jpg",
       "b.jpg",
@@ -30,23 +32,29 @@
       "f.png",
       "g.png"
     ],
-    "tech": ["next.js", "react", "tailwind css", "css"]
+    "tech": ["next.js", "react", "tailwind css", "css"],
+    "gitlink": "https://github.com/Keshav-Aneja/Unnati",
+    "demolink": "https://keshav-aneja.github.io/FlipSketch/"
   },
   {
     "id": 3,
     "title": "FlipSketch",
     "bannerImg": "flipsketch.jpg",
-    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
+    "description": "FlipSketch is a canvas-based drawing tool that lets you explore your artistic side in an interactive way. Whether you're a seasoned artist or just want to doodle during your office breaks, this tool is perfect for everyone! 🎨✨",
     "imgBanners": ["a.jpg", "b.jpg", "c.jpg", "d.jpg", "e.png", "f.png"],
-    "tech": ["html", "css", "javascript"]
+    "tech": ["html", "css", "javascript"],
+    "gitlink": "https://github.com/Keshav-Aneja/FlipSketch",
+    "demolink": "https://keshav-aneja.github.io/FlipSketch/"
   },
   {
     "id": 4,
     "title": "Corest",
     "bannerImg": "corest.jpg",
-    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
+    "description": "COREST is an innovative platform designed to empower students on their educational journey by connecting them with valuable scholarships and opportunities that might otherwise go unnoticed. In a world brimming with opportunities, it can be challenging for students to uncover the scholarships and programs tailored to their specific needs and aspirations. COREST is the solution to this common challenge.",
     "imgBanners": [],
-    "tech": ["html", "css", "javascript"]
+    "tech": ["html", "css", "javascript"],
+    "gitlink": "https://github.com/Keshav-Aneja/Corest",
+    "demolink": "https://keshav-aneja.github.io/Corest/"
   },
   {
     "id": 5,
@@ -63,38 +71,48 @@
       "h.png",
       "i.png"
     ],
-    "tech": ["html", "css"]
+    "tech": ["html", "css"],
+    "gitlink": "https://github.com/Keshav-Aneja/UniGames---Project-",
+    "demolink": "https://unigames.in"
   },
   {
     "id": 6,
     "title": "TypeNinja",
     "bannerImg": "typeninja.jpg",
-    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS. UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments .As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work.",
+    "description": "Type Ninja is an engaging typing practice website that I developed during my first year as a computer science student. Inspired by the functionality of MonkeyType, this project is designed to enhance your typing skills while making the learning process fun and interactive. Key features include multiple text fields for varied challenges, a 'Reset Typing' option for continuous improvement, multiple themes for immersive experiences, and a CapsLock warning to encourage proper keyboard techniques.",
     "imgBanners": ["a.jpg", "b.jpg", "c.jpg", "d.jpg", "e.jpg", "f.png"],
-    "tech": ["html", "css", "javascript"]
+    "tech": ["html", "css", "javascript"],
+    "gitlink": "https://github.com/Keshav-Aneja/Unnati",
+    "demolink": "https://keshav-aneja.github.io/FlipSketch/"
   },
   {
     "id": 7,
     "title": "TCP Chat",
     "bannerImg": "chat.png",
-    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
+    "description": "The TCP Chat System in Python is a versatile and efficient communication platform that I designed and developed using socket programming. This project provides a robust, text-based chat system built on the principles of the Transmission Control Protocol (TCP). It's a versatile solution for real-time communication that can be used in various scenarios, from simple local chat applications to more complex distributed systems.",
     "imgBanners": [],
-    "tech": ["python", "sockets", "networking"]
+    "tech": ["python", "sockets", "networking"],
+    "gitlink": "https://github.com/Keshav-Aneja/Unnati",
+    "demolink": "https://keshav-aneja.github.io/FlipSketch/"
   },
   {
     "id": 8,
-    "title": "FileRenamer",
+    "title": "YTPlayListDown",
     "bannerImg": "filenamer.jpg",
-    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
+    "description": "YTPlaylistDownloader, developed using Python and Selenium, simplifies the task of downloading extensive YouTube playlists for later viewing. This automation tool efficiently handles the laborious process of fetching, queuing, and downloading videos, saving you time and effort. Whether it's educational content, music, or entertainment, this project empowers you to effortlessly build your offline playlist library. YTPlaylistDownloader is your shortcut to uninterrupted YouTube enjoyment.",
     "imgBanners": [],
-    "tech": ["python"]
+    "tech": ["python", "selenium"],
+    "gitlink": "https://github.com/Keshav-Aneja/Unnati",
+    "demolink": "https://keshav-aneja.github.io/FlipSketch/"
   },
   {
     "id": 9,
     "title": "SpaceGame",
     "bannerImg": "spacegame.jpg",
-    "description": "UniGames is a platform designed specifically for college gamers to showcase their skills and earn recognition for their achievements. I created this platform using just HTML and CSS, and I'm proud to say that it has been up and running successfully for about a month now.UniGames features a unique leaderboard section that showcases the names of top-performing college gamers, allowing them to gain the recognition they deserve. In addition, UniGames offers the opportunity for gamers to earn prize money as they compete in various gaming tournaments.As someone who is passionate about gaming, I understand the importance of creating a platform where fellow gamers can showcase their talents and earn recognition for their hard work. UniGames has been a fulfilling project, and I am excited to continue developing and expanding it further.",
+    "description": "SpaceGame is a minimalist, browser-based game that challenges your space bar reflexes. Created with simple JavaScript and DOM manipulation, the objective is straightforward: press the space bar as many times as possible within a limited time frame. It's a quick and addictive game that measures your reaction speed and offers a fun way to compete with friends. How many times can you hit the space bar in the allotted time? Find out with SpaceGame!",
     "imgBanners": [],
-    "tech": ["html", "css", "javascript"]
+    "tech": ["html", "css", "javascript"],
+    "gitlink": "https://github.com/Keshav-Aneja/SpaceGame",
+    "demolink": "https://keshav-aneja.github.io/SpaceGame/"
   }
 ]

@@ -7,7 +7,7 @@ import Curtains from "../components/Curtains";
 import BackButton from "../components/BackButton";
 import data from "../Project/Project.json";
 import ButtonOutline from "../components/ButtonOutline";
-
+import Link from "next/link";
 interface ProjectProps {
   children?: any;
   projectOpen: boolean;
@@ -65,8 +65,12 @@ const ProjectPopup: React.FC<ProjectProps> = ({
             </div>
           </div>
           <div className="button-container w-[100%] md:w-[50%] flex m-auto justify-center gap-8 mt-8 mb-8 md:mb-0">
-            <ButtonOutline arrowdir="right">Github</ButtonOutline>
-            <ButtonOutline arrowdir="right">Demo</ButtonOutline>
+            <Link href={openData ? openData.gitlink : ""}>
+              <ButtonOutline arrowdir="right">Github</ButtonOutline>
+            </Link>
+            <Link href={openData ? openData.demolink : ""}>
+              <ButtonOutline arrowdir="right">Demo</ButtonOutline>
+            </Link>
           </div>
           <div className="scroll-down md:flex justify-center scale-50 items-center mt-4 hidden ">
             <div className="text-arrow  text-2xl text-tertiary font-medium">
