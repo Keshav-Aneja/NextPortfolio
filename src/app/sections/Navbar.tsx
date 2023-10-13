@@ -80,7 +80,7 @@ const Menu: React.FC<menuDetail> = ({ isOpen }) => {
       >
         <Link
           href="/Landing"
-          className="card w-[30%] md:w-[23%] h-32 md:h-60  overflow-hidden"
+          className="card w-[30%] md:w-[23%] h-32 md:h-60  overflow-hidden remove-def"
         >
           <div className="group card-inner w-full h-full border-4 border-secondary  rounded-tl-[50px] md:rounded-tl-[100px] rounded-br-[50px] md:rounded-br-[100px] flex justify-center items-center text-white text-base md:text-3xl font-monsterrat font-semibold tracking-widest hover:bg-secondary transition-all duration-300 hover:bg-opacity-50">
             Home
@@ -88,7 +88,7 @@ const Menu: React.FC<menuDetail> = ({ isOpen }) => {
         </Link>
         <Link
           href="/Project"
-          className="card w-[34%] md:w-[23%] h-32 md:h-60  overflow-hidden"
+          className="card w-[34%] md:w-[23%] h-32 md:h-60  overflow-hidden remove-def"
         >
           <div className="card-inner w-full h-full border-4 border-secondary rounded-[50px] md:rounded-[100px]  flex justify-center items-center text-white text-base md:text-3xl font-monsterrat font-semibold tracking-widest hover:bg-secondary transition-all duration-300  hover:bg-opacity-50">
             Projects
@@ -96,7 +96,7 @@ const Menu: React.FC<menuDetail> = ({ isOpen }) => {
         </Link>
         <Link
           href="/About"
-          className="card w-[30%] md:w-[23%] h-32 md:h-60  overflow-hidden"
+          className="card w-[30%] md:w-[23%] h-32 md:h-60  overflow-hidden remove-def"
         >
           <div className="card-inner w-full h-full border-4 border-secondary rounded-tr-[50px] md:rounded-tr-[100px] rounded-bl-[50px] md:rounded-bl-[100px] flex justify-center items-center text-white text-base md:text-3xl font-monsterrat font-semibold tracking-widest hover:bg-secondary transition-all duration-300  hover:bg-opacity-50">
             About
