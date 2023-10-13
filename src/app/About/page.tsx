@@ -29,7 +29,7 @@ export default function About() {
                 className="dp-img-container visible md:hidden w-[35%] md:w-[30%] h-[40%] md:h-[70%] rounded-xl md:rounded-bl-[150px] rounded-br-[50px] md:rounded-br-0 mr-4 md:mr-0 overflow-hidden relative float-left"
                 style={{ backgroundImage: "url(/images/Profile.png)" }}
               ></div>
-              Hello, I&&apos;m Keshav Aneja, a second-year computer science
+              Hello, I&apos;m Keshav Aneja, a second-year computer science
               student at Vellore Institute of Technology, deeply immersed in the
               world of full-stack web development. My journey began with
               exploring the captivating realm of frontend development, where I
