@@ -33,7 +33,7 @@ export default function About() {
               student at Vellore Institute of Technology, deeply immersed in the
               world of full-stack web development. My journey began with
               exploring the captivating realm of frontend development, where I
-              delved into technologies like React and Next.js, crafting
+              delved into technologies like React and Next.j  s, crafting
               innovative projects along the way. My current focus is on
               mastering the backend, with the goal of creating full-stack
               applications that cater to a wide audience. Coding and graphic

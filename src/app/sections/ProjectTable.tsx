@@ -49,16 +49,22 @@ const ProjectTable: React.FC<ProjectProps> = ({
 
       <div className="line bg-tertiary w-[100%] h-[2px] md:mb-6"></div>
       <div className="Project-Display w-full h-[80%] overflow-y-scroll overflow-x-hidden p-0 md:p-4 flex justify-center md:justify-between flex-wrap items-start z-[10]">
-        {filteredProjects.map((data, i) => (
-          <ProjectCard
-            id={data.id}
-            key={data.id}
-            title={data.title}
-            img={data.bannerImg}
-            setProjectOpen={setProjectOpen}
-            setOpenProjectId={setOpenProjectId}
-          ></ProjectCard>
-        ))}
+        {filteredProjects.length === 0 ? (
+          <div className="text-5xl text-primary font-coolvetica text-center w-full tracking-wider">
+            No Projects Found
+          </div>
+        ) : (
+          filteredProjects.map((data, i) => (
+            <ProjectCard
+              id={data.id}
+              key={data.id}
+              title={data.title}
+              img={data.bannerImg}
+              setProjectOpen={setProjectOpen}
+              setOpenProjectId={setOpenProjectId}
+            ></ProjectCard>
+          ))
+        )}
         <div className="empty-block w-full h-32"></div>
       </div>
     </div>
