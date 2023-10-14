@@ -12,13 +12,13 @@ const SocialMenu: React.FC<SocialProps> = ({ socialOpen }) => {
       }`}
     >
       <Link
-        href=""
+        href="https://github.com/Keshav-Aneja"
         className="hover:scale-125 transition-all duration-200 ease"
       >
         <Image src="/images/github.png" alt="" width={25} height={25}></Image>
       </Link>
       <Link
-        href=""
+        href="https://twitter.com/Keshav__Aneja"
         className="hover:scale-125 transition-all duration-200 ease"
       >
         <div className="content bg-white w-fit h-fit rounded-full">
@@ -31,13 +31,13 @@ const SocialMenu: React.FC<SocialProps> = ({ socialOpen }) => {
         </div>
       </Link>
       <Link
-        href=""
+        href="https://www.linkedin.com/in/keshav-aneja/"
         className="hover:scale-125 transition-all duration-200 ease"
       >
         <Image src="/images/linkedin.png" alt="" width={25} height={25}></Image>
       </Link>
       <Link
-        href=""
+        href="https://www.instagram.com/k.aneja09/"
         className="hover:scale-125 transition-all duration-200 ease"
       >
         <Image
