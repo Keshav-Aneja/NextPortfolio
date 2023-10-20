@@ -16,15 +16,15 @@ const Navbar: React.FC<menuProp> = ({ toggleMenu, refcontent }) => {
     <>
       <Menu isOpen={isOpen} />
       <motion.div
-        className={`remove-def menu-btn-outer scale-75 md:scale-100 fixed p-2 w-20 h-20 rounded-full border-4  left-[50%] translate-x-[-50%] bottom-12 md:bottom-16 flex items-center justify-center ${
-          isOpen ? "border-secondary" : "border-secondary"
-        }`}
         drag
         dragConstraints={refcontent}
-        dragElastic={1}
+        dragElastic={0.8}
         dragMomentum={false}
-        whileDrag={{ scale: 0.6 }}
         dragPropagation
+        whileDrag={{ scale: 0.5 }}
+        className={`remove-def menu-btn-outer   fixed p-2  w-16 h-16 md:w-20 md:h-20 rounded-full border-4  left-[50%] translate-x-[-50%] bottom-12 md:bottom-16 flex items-center justify-center ${
+          isOpen ? "border-secondary" : "border-secondary"
+        }`}
       >
         <div
           className={`remove-def group w-full h-full rounded-full  flex justify-center items-center font-bold ${
@@ -36,7 +36,7 @@ const Navbar: React.FC<menuProp> = ({ toggleMenu, refcontent }) => {
           }}
         >
           <div
-            className={`rotate-text absolute z-[101] -top-10  ${
+            className={`rotate-text absolute z-[101] -top-10 scale-[88%] md:scale-100 ${
               isOpen ? "text-white opacity-0" : "text-primary opacity-100"
             }`}
           >
