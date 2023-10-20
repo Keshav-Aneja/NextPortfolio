@@ -21,6 +21,9 @@ const Navbar: React.FC<menuProp> = ({ toggleMenu, refcontent }) => {
         }`}
         drag
         dragConstraints={refcontent}
+        dragElastic={1}
+        dragMomentum={false}
+        dragPropagation
       >
         <div
           className={`remove-def group w-full h-full rounded-full  flex justify-center items-center font-bold ${
