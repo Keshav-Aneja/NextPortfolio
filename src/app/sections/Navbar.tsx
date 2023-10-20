@@ -23,12 +23,13 @@ const Navbar: React.FC<menuProp> = ({ toggleMenu, refcontent }) => {
         dragConstraints={refcontent}
         dragElastic={1}
         dragMomentum={false}
+        whileDrag={{ scale: 0.6 }}
         dragPropagation
       >
         <div
           className={`remove-def group w-full h-full rounded-full  flex justify-center items-center font-bold ${
             isOpen ? "bg-secondary" : "bg-secondary"
-          } transition-all duration-500 active:duration-200 ease-inc cursor-pointer hover:scale-[130%] active:scale-[85%] drop-shadow-[0px_0px_20px_rgba(0,0,0,0.4)]`}
+          } transition-all duration-500 active:duration-200 ease-inc cursor-pointer lg:hover:scale-[130%] lg:active:scale-[85%] drop-shadow-[0px_0px_20px_rgba(0,0,0,0.4)]`}
           onClick={() => {
             setIsOpen(!isOpen);
             toggleMenu(!isOpen);
