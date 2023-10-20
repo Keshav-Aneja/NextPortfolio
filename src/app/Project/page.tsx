@@ -6,12 +6,13 @@ import ProjectTable from "../sections/ProjectTable";
 import ProjectOverlay from "../sections/ProjectOverlay";
 import ProjectPopup from "../sections/ProjectPopup";
 import BackgroundProps from "../components/BackgroundProps";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Image from "next/image";
 export default function Project() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [projectOpen, setProjectOpen] = useState(false);
   const [openProjectId, setOpenProjectId] = useState(-1);
+  const constraintsRef = useRef(null);
   return (
     <>
       <div className="container z-[-10]">
@@ -19,7 +20,10 @@ export default function Project() {
       </div>
       <Filter />
       <Filter2 />
-      <div className="w-[100vw] h-[100vh] overflow-hidden flex justify-center items-center">
+      <div
+        className="w-[100vw] h-[100vh] overflow-hidden flex justify-center items-center"
+        ref={constraintsRef}
+      >
         <div
           className={`project-content  transition-all duration-[750ms] ease-inc  ${
             menuOpen
@@ -47,7 +51,7 @@ export default function Project() {
         setProjectOpen={setProjectOpen}
         openProjectId={openProjectId}
       ></ProjectPopup>
-      <Navbar toggleMenu={setMenuOpen} />
+      <Navbar toggleMenu={setMenuOpen} refcontent={constraintsRef} />
     </>
   );
 }

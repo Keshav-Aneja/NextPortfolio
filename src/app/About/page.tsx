@@ -1,12 +1,13 @@
 "use client";
 import Navbar from "../sections/Navbar";
 import ButtonOutline from "../components/ButtonOutline";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Filter from "../components/Filter";
 import Image from "next/image";
 import Filter2 from "../components/Filter2";
 export default function About() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const constraintsRef = useRef(null);
   return (
     <>
       <div
@@ -18,7 +19,10 @@ export default function About() {
       >
         <Filter />
         <Filter2 />
-        <div className="content-container w-[100%] md:w-[80%] h-[80%]  relative flex flex-col md:flex-row md:justify-between   items-center justify-center  scale-[90%] md:scale-100">
+        <div
+          className="content-container w-[100%] md:w-[80%] h-[80%]  relative flex flex-col md:flex-row md:justify-between   items-center justify-center  scale-[90%] md:scale-100"
+          ref={constraintsRef}
+        >
           <div className="left-content w-[100%] md:w-[70%] h-full flex flex-col justify-start md:justify-center items-center md:items-start">
             <div className="heading text-secondary  text-[max(5vw,3rem)] font-coolvetica">
               About Me
@@ -33,7 +37,7 @@ export default function About() {
               student at Vellore Institute of Technology, deeply immersed in the
               world of full-stack web development. My journey began with
               exploring the captivating realm of frontend development, where I
-              delved into technologies like React and Next.j  s, crafting
+              delved into technologies like React and Next.j s, crafting
               innovative projects along the way. My current focus is on
               mastering the backend, with the goal of creating full-stack
               applications that cater to a wide audience. Coding and graphic
@@ -52,7 +56,7 @@ export default function About() {
           <FloatingCircle />
         </div>
       </div>
-      <Navbar toggleMenu={setMenuOpen} />
+      <Navbar toggleMenu={setMenuOpen} refcontent={constraintsRef} />
     </>
   );
 }
