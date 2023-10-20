@@ -3,20 +3,24 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { spawn } from "child_process";
 import Link from "next/link";
+import { motion } from "framer-motion";
 interface menuProp {
   toggleMenu: any;
+  refcontent: any;
 }
 
-const Navbar: React.FC<menuProp> = ({ toggleMenu }) => {
+const Navbar: React.FC<menuProp> = ({ toggleMenu, refcontent }) => {
   const [isOpen, setIsOpen] = useState(false);
   const Text = "MENU MENU MENU";
   return (
     <>
       <Menu isOpen={isOpen} />
-      <div
+      <motion.div
         className={`remove-def menu-btn-outer scale-75 md:scale-100 fixed p-2 w-20 h-20 rounded-full border-4  left-[50%] translate-x-[-50%] bottom-12 md:bottom-16 flex items-center justify-center ${
           isOpen ? "border-secondary" : "border-secondary"
         }`}
+        drag
+        dragConstraints={refcontent}
       >
         <div
           className={`remove-def group w-full h-full rounded-full  flex justify-center items-center font-bold ${
@@ -60,7 +64,7 @@ const Navbar: React.FC<menuProp> = ({ toggleMenu }) => {
             />
           )}
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };

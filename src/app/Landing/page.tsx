@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Navbar from "../sections/Navbar";
 import Image from "next/image";
 import Link from "next/link";
@@ -10,11 +10,12 @@ import Filter2 from "../components/Filter2";
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [socialOpen, setSocialOpen] = useState(false);
+  const constraintsRef = useRef(null);
   return (
     <div className="w-[100vw] h-[100vh] overflow-hidden">
       <Filter />
       <Filter2 />
-      <div className="hero-container h-full w-full">
+      <div className="hero-container h-full w-full" ref={constraintsRef}>
         <div
           className={`main-content text-[max(5vw,3rem)] w-full h-full text-transparent flex flex-col justify-center items-center  ${
             menuOpen
@@ -76,7 +77,7 @@ export default function Home() {
         </div>
         <BackgroundProps />
         <SocialMenu socialOpen={socialOpen} />
-        <Navbar toggleMenu={setMenuOpen} />
+        <Navbar toggleMenu={setMenuOpen} refcontent={constraintsRef} />
       </div>
     </div>
   );
