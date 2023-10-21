@@ -8,6 +8,7 @@ import BackButton from "../components/BackButton";
 import data from "../Project/Project.json";
 import ButtonOutline from "../components/ButtonOutline";
 import Link from "next/link";
+import { motion, useScroll, useSpring } from "framer-motion";
 interface ProjectProps {
   children?: any;
   projectOpen: boolean;
@@ -21,6 +22,7 @@ const ProjectPopup: React.FC<ProjectProps> = ({
   openProjectId,
 }) => {
   const openData = data.find((prodata) => prodata.id === openProjectId);
+
   return (
     <div
       className={`absolute top-0 left-0 w-[100vw] h-[100vh] overflow-hidden z-[500] ${
@@ -35,6 +37,7 @@ const ProjectPopup: React.FC<ProjectProps> = ({
             : "translate-y-[100%] opacity-0 pointer-events-none"
         } transition-all duration-500 delay-500 ease`}
       >
+        {" "}
         <ImageBanner
           projectOpen={projectOpen}
           title={openData?.title}
