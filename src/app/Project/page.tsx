@@ -8,6 +8,7 @@ import ProjectPopup from "../sections/ProjectPopup";
 import BackgroundProps from "../components/BackgroundProps";
 import { useState, useRef } from "react";
 import Image from "next/image";
+
 export default function Project() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [projectOpen, setProjectOpen] = useState(false);

@@ -4,6 +4,7 @@ import ButtonPrime from "../components/ButtonPrime";
 import ProjectCard from "../components/ProjectCard";
 import TechMenu from "../Project/Tech.json";
 import ProjectData from "../Project/Project.json";
+
 interface ProjectProps {
   setProjectOpen: any;
   setOpenProjectId: any;

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 interface CardProp {
   id: Number;
   title: String;
@@ -14,7 +15,12 @@ const ProjectCard: React.FC<CardProp> = ({
   setOpenProjectId,
 }) => {
   return (
-    <div className="group w-[90%] md:w-[50%] lg:w-[30%] border-[0px] border-tertiary aspect-square flex flex-col justify-between gap-4 p-4 rounded-xl hover:border-primary transition-all duration-300 ease-in-out] scale-90">
+    <motion.div
+      className="group w-[90%] md:w-[50%] lg:w-[30%] border-[0px] border-tertiary aspect-square flex flex-col justify-between gap-4 p-4 rounded-xl hover:border-primary transition-all duration-300 ease-in-out] scale-90"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
+    >
       <div className="head flex flex-col gap-2 md:gap-4">
         <div className="Project-heading text-tertiary text-4xl font-coolvetica tracking-wide font-normal group-hover:text-primary">
           {title}
@@ -38,7 +44,7 @@ const ProjectCard: React.FC<CardProp> = ({
       >
         View Project
       </div>
-    </div>
+    </motion.div>
   );
 };
 export default ProjectCard;

@@ -26,14 +26,16 @@ const Navbar: React.FC<menuProp> = ({ toggleMenu, refcontent }) => {
           isOpen ? "border-secondary" : "border-secondary"
         }`}
       >
-        <div
+        <motion.div
           className={`remove-def group w-full h-full rounded-full  flex justify-center items-center font-bold ${
             isOpen ? "bg-secondary" : "bg-secondary"
-          } transition-all duration-500 active:duration-200 ease-inc cursor-pointer lg:hover:scale-[130%] lg:active:scale-[85%] drop-shadow-[0px_0px_20px_rgba(0,0,0,0.4)]`}
+          } transition-all duration-300 active:duration-300 ease-inc cursor-pointer drop-shadow-[0px_0px_20px_rgba(0,0,0,0.4)]`}
           onClick={() => {
             setIsOpen(!isOpen);
             toggleMenu(!isOpen);
           }}
+          whileHover={{ scale: 1.3 }}
+          whileTap={{ scale: 0.85 }}
         >
           <div
             className={`rotate-text absolute z-[101] -top-10 scale-[88%] md:scale-100 ${
@@ -67,7 +69,7 @@ const Navbar: React.FC<menuProp> = ({ toggleMenu, refcontent }) => {
               className="w-[40%] md:opacity-0  group-hover:opacity-100 transition-opacity duration-300 ease-inc"
             />
           )}
-        </div>
+        </motion.div>
       </motion.div>
     </>
   );
