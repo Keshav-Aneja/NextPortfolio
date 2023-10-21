@@ -45,7 +45,7 @@ const Navbar: React.FC<menuProp> = ({ toggleMenu, refcontent }) => {
             {Text.split("").map((char, i) => (
               <div
                 style={{ transform: `rotate(${i * 24}deg)` }}
-                className="char-rotate font-montserrat"
+                className="char-rotate font-montserrat text-sm md:text-base"
                 key={i}
               >
                 {char}
