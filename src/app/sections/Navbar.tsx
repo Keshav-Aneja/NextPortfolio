@@ -22,7 +22,7 @@ const Navbar: React.FC<menuProp> = ({ toggleMenu, refcontent }) => {
         dragMomentum={false}
         dragPropagation
         whileDrag={{ scale: 0.5 }}
-        className={`remove-def menu-btn-outer   fixed p-2  w-16 h-16 md:w-20 md:h-20 rounded-full border-4  left-[50%] translate-x-[-50%] bottom-12 md:bottom-16 flex items-center justify-center ${
+        className={`remove-def menu-btn-outer   fixed p-2  w-12 h-12 md:w-20 md:h-20 rounded-full border-4  left-[50%] translate-x-[-50%] bottom-12 md:bottom-16 flex items-center justify-center ${
           isOpen ? "border-secondary" : "border-secondary"
         }`}
       >
@@ -38,7 +38,7 @@ const Navbar: React.FC<menuProp> = ({ toggleMenu, refcontent }) => {
           whileTap={{ scale: 0.85 }}
         >
           <div
-            className={`rotate-text absolute z-[101] -top-10 scale-[88%] md:scale-100 ${
+            className={`rotate-text absolute z-[101] -top-10 scale-[75%] md:scale-100 ${
               isOpen ? "text-white opacity-0" : "text-primary opacity-100"
             }`}
           >

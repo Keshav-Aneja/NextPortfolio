@@ -7,6 +7,7 @@ import SocialMenu from "../components/SocialMenu";
 import BackgroundProps from "../components/BackgroundProps";
 import Filter from "../components/Filter";
 import Filter2 from "../components/Filter2";
+import { motion } from "framer-motion";
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [socialOpen, setSocialOpen] = useState(false);
@@ -39,10 +40,15 @@ export default function Home() {
             I&apos;m a Frontend Developer & Graphic Designer
           </div>
           <div className="links flex w-[70%] md:w-[40%] lg:w-[30%] justify-between">
-            <div className="project">
+            <motion.div
+              className="project"
+              whileHover={{ scale: 1.15 }}
+              whileTap={{ scale: 0.85 }}
+              transition={{ duration: 0.3 }}
+            >
               <Link
                 href="../About"
-                className="remove-def flex flex-col justify-center items-center hover:scale-110 transition-all duration-300 ease-linear"
+                className="remove-def flex flex-col justify-center items-center "
               >
                 <Image
                   src="/images/arrow.png"
@@ -54,11 +60,16 @@ export default function Home() {
                   ABOUT ME
                 </p>
               </Link>
-            </div>
-            <div className="About ">
+            </motion.div>
+            <motion.div
+              className="About "
+              whileHover={{ scale: 1.15 }}
+              whileTap={{ scale: 0.85 }}
+              transition={{ duration: 0.3 }}
+            >
               <Link
                 href="#"
-                className="remove-def flex flex-col justify-center items-center hover:scale-110 transition-all duration-300 ease-linear"
+                className="remove-def flex flex-col justify-center items-center "
                 onClick={() => setSocialOpen(!socialOpen)}
               >
                 <Image
@@ -72,7 +83,7 @@ export default function Home() {
                   CONNECT WITH ME
                 </p>
               </Link>
-            </div>
+            </motion.div>
           </div>
         </div>
         <BackgroundProps />
