@@ -24,7 +24,7 @@ const Navbar: React.FC<menuProp> = ({ toggleMenu, refcontent }) => {
         whileDrag={{ scale: 0.5 }}
         className={`remove-def menu-btn-outer   fixed p-2  w-16 h-16 md:w-20 md:h-20 rounded-full border-4  left-[50%] translate-x-[-50%] bottom-12 md:bottom-16 flex items-center justify-center ${
           isOpen ? "border-secondary" : "border-secondary"
-        }`}
+        } active:cursor-move`}
       >
         <motion.div
           className={`remove-def group w-full h-full rounded-full  flex justify-center items-center font-bold ${

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { easeIn, motion } from "framer-motion";
 interface ButtonProp {
   children: React.ReactNode;
   arrowdir?: String;

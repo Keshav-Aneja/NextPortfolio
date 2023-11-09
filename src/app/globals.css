@@ -125,7 +125,7 @@ body::before {
 }
 .levitating {
   animation-name: floating;
-  animation-duration: 4s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
@@ -140,7 +140,7 @@ body::before {
     transform: translate(0, 0px);
   }
   50% {
-    transform: translate(0, 15px);
+    transform: translate(0, 45px);
   }
   100% {
     transform: translate(0, -0px);
@@ -205,11 +205,5 @@ body::before {
   -webkit-tap-highlight-color: transparent;
 }
 .progress-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 10px;
-  background: red;
   transform-origin: 0%;
 }

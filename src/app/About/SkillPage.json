@@ -1,0 +1,77 @@
+[
+  {
+    "skill": "HTML",
+    "img": "html.png",
+    "color": "#da7b56"
+  },
+  {
+    "skill": "CSS",
+    "img": "css.png",
+    "color": "#da7b56"
+  },
+  {
+    "skill": "Javascript",
+    "img": "javascript.webp",
+    "color": "#da7b56"
+  },
+  {
+    "skill": "Tailwind CSS",
+    "img": "tailwind.png",
+    "color": "#da7b56"
+  },
+  {
+    "skill": "ReactJS",
+    "img": "react.png",
+    "color": "#da7b56"
+  },
+  {
+    "skill": "NEXT.JS",
+    "img": "next.svg",
+    "color": "#da7b56"
+  },
+  {
+    "skill": "Remotion",
+    "img": "remotion.png",
+    "color": "#da7b56"
+  },
+  {
+    "skill": "NodeJS",
+    "img": "nodejs.png",
+    "color": "#da7b56"
+  },
+  {
+    "skill": "Web Sockets",
+    "img": "websocket.svg",
+    "color": "#da7b56"
+  },
+  {
+    "skill": "Git",
+    "img": "git.png",
+    "color": "#da7b56"
+  },
+  {
+    "skill": "C++",
+    "img": "cpp.png",
+    "color": "#da7b56"
+  },
+  {
+    "skill": "Java",
+    "img": "java.png",
+    "color": "#da7b56"
+  },
+  {
+    "skill": "Python",
+    "img": "python.png",
+    "color": "#da7b56"
+  },
+  {
+    "skill": "Selenium",
+    "img": "selenium.png",
+    "color": "#da7b56"
+  },
+  {
+    "skill": "Photoshop",
+    "img": "photoshop.png",
+    "color": "#da7b56"
+  }
+]
