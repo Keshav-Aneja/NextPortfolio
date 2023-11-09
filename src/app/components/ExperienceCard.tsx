@@ -15,7 +15,7 @@ const ExperienceCard: React.FC<ExpCard> = ({
 }) => {
   return (
     <motion.div
-      className="outer-cardbox w-full lg:w-[75%] font-montserrat hover:bg-[#df78451b] p-4 rounded-lg cursor-pointer mb-4 transition-all duration-200 ease-linear"
+      className="outer-cardbox w-full lg:w-[75%] font-montserrat bg-[#df78451b] md:bg-transparent hover:bg-[#df78451b] p-4 rounded-lg cursor-pointer mb-4 transition-all duration-200 ease-linear"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
